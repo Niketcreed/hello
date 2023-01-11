@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="55dp"
+        android:height="60dp"
+        android:drawable="@drawable/rd_back"
+        android:gravity="center">
+        <shape android:shape="rectangle" >
+        </shape>
+
+    </item>
+
+</layer-list>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6536</color>
+    <color name="colorPrimaryDark">#f96c30</color>
+    <color name="colorAccent">#f96c30</color>
+    <color name="bold_text_color_orange">#ff6536</color>
+    <color name="hint_color">#a9aab1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_color">#5984e0</color>
+    <color name="note_text_color">#393c46</color>
+    <color name="bold_text_color">#626670</color>
+    <color name="note_color">#878890</color>
+    <color name="horizontal_line">#bfc0c5</color>
+    <color name="horizontal_line_video_option">#635b5b</color>
+    <color name="fb_back_color">#3a569c</color>
+    <color name="twitter_back_color">#03a9f4</color>
+    <color name="lite_black">#80000000</color>
+    <color name="profile_background">#f4f4f4</color>
+    <color name="profile_stroke">#efefef</color>
+    <color name="back_search">#F8D4D4D8</color>
+    <color name="search_date_color">#a2a5ad</color>
+    <color name="back_search_head">#f4f4f4</color>
+    <color name="black">#000000</color>
+    <color name="red">#FD8855</color>
+    <color name="upload_image">#ddd8d8</color>
+    <color name="lyt_orange">#ffe0d7</color>
+    <color name="background">#65828e</color>
+    <color name="main_color">#ff9a00</color>
+    <color name="secondary_color">#BDBDBD</color>
+    <color name="dialog_back">#C9000000</color>
+
+</resources>

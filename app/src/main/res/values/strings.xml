@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Article mode</string>
+    <string name="main_tag"><font color="#515151">Discovered Articles</font> \n<font color="#9C9DA3">Jan 7, 2023 - 2 min read</font></string>
+    <string name="main_heading_blog"><font color="#393C46">Vin Diesel Drops a Teaser for the Tenth Installment of Fast and Furious</font></string>
+    <string name="main_sub_blog"><font color="#A2A5AD">Fast &amp; Furious star Vin Diesel recently teased the much-awaited tenth installment of the globally popular franchise. The actor dropped a new photo of his character, Dominic Toretto, also revealing that the upcoming movie’s trailer will be launched next month.</font></string>
+    <string name="blog_readmore"><font color="#FF6E49">Read More</font></string>
+    <string name="single_page_subheading"><font color="#626670">Check out the 5 coolest suit mods in Marvel’s Spider-Man Remastered for PC!</font></string>
+    <string name="single_page_content"><font color="#A2A5AD">PC Mods are always a source of fun and surprises. With your favorite characters appearing in your favorite game, PC Mods make it a lot more interesting to jump around and fight villains in the city of New York.</font></string>
+    <string name="single_page_content2"><font color="#A2A5AD">From Venom to the Wolverine, below are the top 9 picks of the coolest Spiderman PC Mods:</font></string>
+
+
+
+</resources>

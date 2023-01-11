@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/firstSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/articledp" />
+
+
+        <TextView
+            android:id="@+id/textArticle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/main_tag" />
+
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/circle_backgroud_grey"
+
+            >
+
+            <ImageView
+                android:id="@+id/shareArticle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="2dp"
+
+                android:src="@drawable/share_black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/circle_backgroud_grey">
+
+
+            <ImageView
+                android:id="@+id/threeDots"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:rotation="90"
+                android:src="@drawable/vector_more_black" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstSection"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/spiderImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/blog_image_spider"
+            app:riv_corner_radius="10dp" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridButtons"
+        android:layout_below="@id/secondSection"
+        android:layout_marginTop="10dp"
+
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridButtons"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+
+        >
+
+        <com.astro.articlemode.widgets.CustomTextSemiBold
+            android:id="@+id/mainHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/single_page_subheading"
+            android:textSize="15dp" />
+
+        <com.astro.articlemode.widgets.CustomTextViewRegular
+            android:id="@+id/subHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/single_page_content"
+            android:textSize="12dp" />
+
+        <com.astro.articlemode.widgets.CustomTextViewRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/single_page_content2"
+            android:textSize="12dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
